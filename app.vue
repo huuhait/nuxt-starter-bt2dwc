@@ -1,7 +1,10 @@
 <template>
-  <div>
-    <nuxt-link to="/"> Page 1 </nuxt-link>
-    <nuxt-link to="/test"> Page 2 </nuxt-link>
+  <main class="py-20 px-10 text-center">
     <NuxtPage />
-  </div>
+    <Footer />
+  </main>
 </template>
+
+<style>
+@import '~/styles/main.css';
+</style>
